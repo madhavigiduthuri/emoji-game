@@ -1,0 +1,66 @@
+/* Write your code here. */
+.winorlose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winorlosecard-app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 50%;
+    background-color: #ffffff33;
+    border-radius: 16px;
+    padding: 15px;
+    color: #ffffff;
+    margin: 50px;
+}
+
+.winorlosecard-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.winorlose-title {
+    font-family: "Roboto";
+    font-size: 50px;
+}
+
+.winorlose-para {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.number-color {
+    color:  #6a59ff;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.btn {
+    background-color: #ffce27;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    cursor: pointer;
+    padding: 14px;
+}
+
+.winorlosecard-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+}
