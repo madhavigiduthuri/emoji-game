@@ -36,10 +36,6 @@ class EmojiGame extends Component {
         result: true,
       }))
     } else {
-      // false => idsList lo ledu ani ardam
-      // idsList lo unnavi anni alane unchi.. ee kotha id ni kooda andulo pettali
-      // score entha aithe undo aa score ki + 1 cheyali
-      // score === 11 => true / false => true => result ni true cheyali... , false => result false kinde unchali
       this.setState(prevState => ({
         ...prevState,
         clickedEmojiIdsList: [...prevState.clickedEmojiIdsList, id],
@@ -50,11 +46,6 @@ class EmojiGame extends Component {
   }
 
   handlePlayAgain = () => {
-    // malli emojis game ravali => result false cheyali
-    // score 0 aipothondi
-    // topScore => score > topScore ? topscore = score : topScore = topscore
-    // clickedemojiIds list annadi malla fresh ga empty ga undali
-
     this.setState(prevState => ({
       score: 0,
       topScore:
