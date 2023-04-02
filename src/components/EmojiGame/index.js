@@ -28,7 +28,6 @@ class EmojiGame extends Component {
   handleClickEmoji = id => {
     const {clickedEmojiIdsList} = this.state
     // console.log(id)
-    // idslist lo unda leda ani vethikuthunna... => true/ false
     if (clickedEmojiIdsList.includes(id)) {
       // true => state => result => true
       this.setState(prevState => ({
